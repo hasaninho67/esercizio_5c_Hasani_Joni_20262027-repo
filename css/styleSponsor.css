@@ -1,0 +1,45 @@
+.introduzione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    
+    box-shadow: 2px 2px 2px rgb(214, 211, 211);
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+hr{
+    border: 0;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #077662;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #077662;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
